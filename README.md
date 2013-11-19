@@ -1,12 +1,13 @@
 Responsive Front End Exercise
 =============================
 
-Convert PSD to functional responsive website.
-Develop a responsive website using Bootstrap, JavaScript and SASS.
+-Convert PSD to functional responsive website.
 
-Web app run usign Yeoman, a workflow, a collection of tools that make developing for the web even better.
+-Develop a responsive website using Bootstrap, JavaScript and SASS.
 
-PREVIEW
+-Web app run usign Yeoman, a workflow, a collection of tools that make developing for the web even better.
+
+Preview
 ---------
 run ::: $ grunt server
 
