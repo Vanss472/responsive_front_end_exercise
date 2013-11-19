@@ -1,0 +1,226 @@
+.jumbotron {
+	background-color: $backgroundcolor;
+	border-bottom: 1px solid #e6e9ea;
+	// height: 800px;
+
+	h1 {
+		font-size: 32px;
+		color: $dark-medium-grey;
+	}
+
+	p {
+		font-size: 15px;
+		color: $dark-grey;
+	}
+	.page-header {
+		border-bottom: 0;
+		text-align: center;
+
+		.lead {
+			font-size: 22px;
+			color: $dark-grey;
+			margin-bottom: 50px;
+
+			a {
+				color: $blue;
+			}
+
+		}
+	}
+
+	.strong { font-weight: bold; }
+	.small { 
+		color: $dark-grey;
+		font-size: 12px; 
+		font-weight: 500;
+		margin: 8px 0 10px;
+		line-height: 1.8em;
+		a { color: $dark-grey; 
+		} 
+	}
+	.light-blue {
+		color: $light-blue;
+		font-size: 28px;
+		font-weight: 400;
+		border-bottom: 1px solid $light-grey;
+		padding: 8px;
+	}
+
+	.tl {	}
+	.tr {	}
+
+	#circle {
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		background: #f7f9fa;
+		padding: 44px 31px;
+	}
+	.middle {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 220px;
+		height: 220px;
+		border: 5px solid #dce2e6;
+	}
+
+	.bl { }
+		 
+	.br { a { color: $dark-grey; text-decoration: underline; } }
+}
+
+.nav-stacked {
+
+	background: $backgroundcolor;
+	border: 1px solid #e6e9ea;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	li a {
+		color: $dark-grey;
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 20px 60px;
+		border-radius: 0;
+	}
+	li:nth-child(2) {
+		border-bottom: 1px solid #e6e9ea;
+	}
+	li a.done {
+		background: url(/images/icon-circle-green.png) no-repeat;
+		background-position: 20px 18px;
+		// padding-left: 25px; 
+		// padding-right:
+	}
+	li a.active {
+		background: #6e7780 url(/images/icon-circle-white.png) no-repeat;
+		background-position: 20px 18px;
+		color: #FFF;
+	}
+	li a.disable {
+		background: url(/images/icon-circle-grey.png) no-repeat;
+		color: #e6e9ea;
+		background-position: 20px 18px;
+	}
+	
+}
+
+.form {
+
+
+	.margin {
+		margin: 0 0 20px;
+	}
+
+	label {
+		margin-bottom: 0;
+	} 
+
+	button.ovalBtnBlue {
+		background-color: $blue;
+		-webkit-border-top-left-radius:42px;
+		-moz-border-radius-topleft:42px;
+		border-top-left-radius:42px;
+		-webkit-border-top-right-radius:42px;
+		-moz-border-radius-topright:42px;
+		border-top-right-radius:42px;
+		-webkit-border-bottom-right-radius:42px;
+		-moz-border-radius-bottomright:42px;
+		border-bottom-right-radius:42px;
+		-webkit-border-bottom-left-radius:42px;
+		-moz-border-radius-bottomleft:42px;
+		border-bottom-left-radius:42px;
+		text-indent:0px;
+		border:1px solid $blue;
+		display:inline-block;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:12px;
+		font-weight: 500;
+		font-style:normal;
+		height: 40px;
+		line-height:34px;
+		width: 140px;
+		text-decoration:none;
+		text-align:center;
+	}.ovalBtn:hover {
+		background-color: $blue;
+	}.ovalBtn:active {
+		position:relative;
+		top:1px;
+	}
+
+	.health {
+		margin: 40px 0 0;
+	}
+
+	.gender-wrapper {
+		width: 600px;
+		margin-left: auto ;
+  		margin-right: auto ;
+	}
+	.maleBtn {
+		display: block;
+		width: 153px;
+		height: 175px;
+		background: url(/images/gender_male_hover.png) bottom;
+		text-indent: -99999px;
+	}
+	.maleBtn:hover {
+		background-position: 0 0;
+	}
+	.male {
+		float: left;
+		background: $backgroundcolor;
+		border: 1px solid $light-grey;
+		padding: 25px 50px;
+	}
+	.male:hover{
+		background: $blue;
+	}
+
+	.female {
+		float: left;
+		background: $backgroundcolor;
+		border: 1px solid $light-grey;
+		padding: 25px 50px;
+	}
+	.female:hover{
+		background: $blue;
+	}
+	.femaleBtn {
+		display: block;
+		width: 153px;
+		height: 175px;
+		background: url(/images/gender_female_hover.png) bottom;
+		text-indent: -99999px;
+	}
+	.femaleBtn:hover {
+		background-position: 0 0;
+	}
+
+	// div.selected {
+	// 	background: $blue;
+	// }
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:25px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top: 90px;
+    width:228px;
+  }
+}
+
+.affix,.affix-top {
+   		position:static;
+	}
+
